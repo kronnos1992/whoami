@@ -2,6 +2,7 @@ import pt from "./pt";
 import en from "./en";
 import fr from "./fr";
 import es from "./es";
+import zh from "./zh";
 import type { Locale } from "../locales";
 
 type ToWide<T> = T extends string
@@ -16,4 +17,4 @@ type ToWideArray<T extends readonly unknown[]> = {
 
 export type Messages = ToWide<typeof pt>;
 
-export const messages: Record<Locale, Messages> = { pt, en, fr, es };
+export const messages: Record<Locale, Messages> = { pt, en, fr, es, zh };

@@ -3,6 +3,7 @@ export const locales = [
   { code: "en", short: "EN", label: "English", tag: "en-GB" },
   { code: "fr", short: "FR", label: "Français", tag: "fr-FR" },
   { code: "es", short: "ES", label: "Español", tag: "es-ES" },
+  { code: "zh", short: "ZH", label: "中文", tag: "zh-CN" },
 ] as const;
 
 export type Locale = (typeof locales)[number]["code"];

@@ -1,6 +1,5 @@
 import { useState, type FormEvent } from "react";
 import styled from "styled-components";
-import emailjs from "@emailjs/browser";
 import {
   Mail,
   MapPin,
@@ -230,18 +229,19 @@ export default function ContactPage() {
     }
 
     try {
-      await emailjs.send(
-        contactConfig.serviceId,
-        contactConfig.templateId,
-        {
-          from_name: name,
-          from_email: email,
-          reply_to: email,
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          access_key: contactConfig.accessKey,
+          name,
+          email,
           subject,
           message,
-        },
-        { publicKey: contactConfig.publicKey },
-      );
+        }),
+      });
+
+      if (!res.ok) throw new globalThis.Error("submit failed");
       setStatus("sent");
     } catch {
       setStatus("error");
