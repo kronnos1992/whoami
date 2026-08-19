@@ -137,6 +137,20 @@ const fr = {
       jkcOnline: "Système de dev JKC en ligne. Tout fonctionne parfaitement !",
       notFound: "Commande introuvable : '{cmd}'. Tapez 'help' pour voir les commandes.",
     },
+    chat: {
+      title: "Assistant IA",
+      subtitle: "Posez des questions sur moi",
+      open: "Ouvrir le chat",
+      close: "Fermer le chat",
+      placeholder: "Écrivez votre message…",
+      error: "Désolé, une erreur s'est produite. Veuillez réessayer.",
+      suggestions: {
+        skills: "Quelles sont vos compétences ?",
+        experience: "Quelle est votre expérience ?",
+        projects: "Quels sont vos projets ?",
+        contact: "Comment puis-je vous contacter ?",
+      },
+    },
   },
   pages: {
     hero: {
@@ -428,6 +442,10 @@ const fr = {
       "k8s-demo": {
         description:
           "Démos d'orchestration de conteneurs avec Kubernetes : déploiements, services et infrastructure.",
+      },
+      whoami: {
+        description:
+          "Site portfolio personnel avec chatbot AI multilingue, terminal interactif et déploiement automatique sur Cloudflare Pages.",
       },
     } as ProjectMap,
     educationFacts: [

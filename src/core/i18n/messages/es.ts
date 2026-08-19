@@ -136,6 +136,20 @@ const es = {
       jkcOnline: "Sistema de desarrollo JKC en línea. ¡Todo funciona bien!",
       notFound: "Comando no encontrado: '{cmd}'. Escribe 'help' para ver los comandos.",
     },
+    chat: {
+      title: "Asistente IA",
+      subtitle: "Pregúntame sobre mí",
+      open: "Abrir chat",
+      close: "Cerrar chat",
+      placeholder: "Escribe tu mensaje…",
+      error: "Lo siento, algo salió mal. Inténtalo de nuevo.",
+      suggestions: {
+        skills: "¿Cuáles son tus habilidades?",
+        experience: "¿Cuál es tu experiencia?",
+        projects: "¿Cuáles son tus proyectos?",
+        contact: "¿Cómo puedo contactarte?",
+      },
+    },
   },
   pages: {
     hero: {
@@ -427,6 +441,10 @@ const es = {
       "k8s-demo": {
         description:
           "Demostraciones de orquestación de contenedores con Kubernetes: deployments, servicios e infraestructura.",
+      },
+      whoami: {
+        description:
+          "Sitio portfolio personal con chatbot AI multilíngue, terminal interactivo y despliegue automático en Cloudflare Pages.",
       },
     } as ProjectMap,
     educationFacts: [

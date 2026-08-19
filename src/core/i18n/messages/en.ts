@@ -136,6 +136,20 @@ const en = {
       jkcOnline: "JKC dev system online. Everything is running smoothly!",
       notFound: "Command not found: '{cmd}'. Type 'help' to see the commands.",
     },
+    chat: {
+      title: "AI Assistant",
+      subtitle: "Ask about me",
+      open: "Open chat",
+      close: "Close chat",
+      placeholder: "Type your message…",
+      error: "Sorry, something went wrong. Please try again.",
+      suggestions: {
+        skills: "What are your skills?",
+        experience: "What is your experience?",
+        projects: "What are your projects?",
+        contact: "How can I contact you?",
+      },
+    },
   },
   pages: {
     hero: {
@@ -427,6 +441,10 @@ const en = {
       "k8s-demo": {
         description:
           "Kubernetes container orchestration demos: deployments, services and infrastructure.",
+      },
+      whoami: {
+        description:
+          "Personal portfolio website with multilingual AI chatbot, interactive terminal and Cloudflare Pages auto-deploy.",
       },
     } as ProjectMap,
     educationFacts: [

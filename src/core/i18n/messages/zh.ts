@@ -136,6 +136,20 @@ const zh = {
       jkcOnline: "JKC 开发系统上线。一切正常！",
       notFound: "未找到命令：'{cmd}'。输入 'help' 查看可用命令。",
     },
+    chat: {
+      title: "AI助手",
+      subtitle: "向我提问",
+      open: "打开聊天",
+      close: "关闭聊天",
+      placeholder: "输入你的消息…",
+      error: "抱歉，出了点问题。请重试。",
+      suggestions: {
+        skills: "你有什么技能？",
+        experience: "你的工作经验？",
+        projects: "你做过哪些项目？",
+        contact: "如何联系你？",
+      },
+    },
   },
   pages: {
     hero: {
@@ -427,6 +441,10 @@ const zh = {
       "k8s-demo": {
         description:
           "Kubernetes容器编排演示：部署、服务和基础设施。",
+      },
+      whoami: {
+        description:
+          "带有AI多语言聊天机器人、交互式终端和Cloudflare Pages自动部署的个人作品集网站。",
       },
     } as ProjectMap,
     educationFacts: [

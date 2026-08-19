@@ -144,6 +144,20 @@ const pt = {
       jkcOnline: "JKC dev system online. Está tudo a correr bem!",
       notFound: "Comando não encontrado: '{cmd}'. Digite 'help' para ver os comandos.",
     },
+    chat: {
+      title: "Assistente IA",
+      subtitle: "Pergunte sobre mim",
+      open: "Abrir chat",
+      close: "Fechar chat",
+      placeholder: "Escreva a sua mensagem…",
+      error: "Desculpe, ocorreu um erro. Tente novamente.",
+      suggestions: {
+        skills: "Quais são as tuas competências?",
+        experience: "Qual é a tua experiência?",
+        projects: "Quais são os teus projetos?",
+        contact: "Como posso contactar-te?",
+      },
+    },
   },
   pages: {
     hero: {

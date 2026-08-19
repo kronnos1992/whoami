@@ -13,13 +13,16 @@
       <stop offset="0" stop-color="#7c3aed" stop-opacity="0.45"/>
       <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
     </radialGradient>
+    <clipPath id="photoClip">
+      <circle cx="164" cy="150" r="72"/>
+    </clipPath>
   </defs>
 
   <rect width="1200" height="630" fill="url(#bg)"/>
   <rect width="1200" height="630" fill="url(#glow)"/>
 
-  <rect x="84" y="70" width="160" height="160" rx="36" fill="url(#acc)"/>
-  <text x="164" y="196" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#fff" text-anchor="middle">JK</text>
+  <circle cx="164" cy="150" r="76" fill="url(#acc)"/>
+  <image href="/images/profile.jpg" x="88" y="74" width="152" height="152" clip-path="url(#photoClip)" preserveAspectRatio="xMidYMid slice"/>
 
   <text x="300" y="150" font-family="Arial, sans-serif" font-size="26" font-weight="600" fill="#a78bfa" letter-spacing="3">PORTEFÓLIO · LÚANDA, ANGOLA</text>
   <text x="300" y="210" font-family="Arial, sans-serif" font-size="66" font-weight="700" fill="#ffffff">Jaime Kiala Coxi</text>
@@ -27,5 +30,5 @@
   <text x="300" y="340" font-family="Arial, sans-serif" font-size="34" font-weight="400" fill="#22d3ee">Full Stack · Data · DevOps</text>
 
   <rect x="300" y="420" width="430" height="8" rx="4" fill="url(#acc)"/>
-  <text x="300" y="480" font-family="Arial, sans-serif" font-size="24" fill="#868098">github.com/kronnos1992 · kialacoxi@gmail.com</text>
+  <text x="300" y="480" font-family="Arial, sans-serif" font-size="24" fill="#868098">github.com/kronnos1992 · jaimecoxi21@gmail.com</text>
 </svg>

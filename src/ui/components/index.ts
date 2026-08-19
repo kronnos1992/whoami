@@ -6,3 +6,4 @@ export { ButtonLink } from "./Button";
 export { ProjectCard } from "./ProjectCard";
 export { SkillBar } from "./SkillBar";
 export { LanguageSwitcher, LanguageTabs } from "./LanguageSwitcher";
+export { ChatBot } from "./ChatBot";

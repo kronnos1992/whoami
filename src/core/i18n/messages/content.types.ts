@@ -32,7 +32,8 @@ export type ProjectId =
   | "wezila-lp"
   | "balangola-lp"
   | "devops-pipelines"
-  | "k8s-demo";
+  | "k8s-demo"
+  | "whoami";
 
 export interface ExperienceContent {
   role: string;

@@ -94,6 +94,19 @@ export const skillGroups: SkillGroup[] = [
       { name: "Mentoria de Equipas", level: 85 },
     ],
   },
+  {
+    id: "ai",
+    label: "Inteligência Artificial",
+    icon: "brain",
+    skills: [
+      { name: "Cloudflare Workers AI", level: 80 },
+      { name: "LLMs (Llama, GPT, DeepSeek)", level: 82 },
+      { name: "Prompt Engineering", level: 85 },
+      { name: "AI Agents & Chatbots", level: 78 },
+      { name: "RAG (Retrieval-Augmented Generation)", level: 72 },
+      { name: "Machine Learning Fundamentals", level: 70 },
+    ],
+  },
 ];
 
 export interface Experience {
@@ -372,6 +385,16 @@ export const projects: Project[] = [
     tags: ["Kubernetes", "Docker", "Cloud"],
     category: "DevOps",
     status: "learning",
+  },
+  {
+    id: "whoami",
+    name: "WHOAMI — Portfolio",
+    description:
+      "Portfolio pessoal com chatbot AI multilíngue, terminal interativo e deploy automático em Cloudflare Pages.",
+    tags: ["React", "TypeScript", "Cloudflare Workers AI", "Styled Components", "i18n"],
+    category: "Web",
+    featured: true,
+    status: "production",
   },
 ];
 
