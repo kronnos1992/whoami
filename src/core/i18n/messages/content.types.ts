@@ -65,6 +65,7 @@ export interface SkillGroupLabels {
   data: string;
   frontend: string;
   devops: string;
+  ai: string;
 }
 
 export interface ProfileContent {

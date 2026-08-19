@@ -290,6 +290,7 @@ const en = {
       data: "Data & Infrastructure",
       frontend: "Frontend & Mobile",
       devops: "Management & DevOps",
+      ai: "Artificial Intelligence",
     } as SkillGroupLabels,
     experiences: {
       "gestor-si-royal": {

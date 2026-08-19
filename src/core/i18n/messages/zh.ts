@@ -290,6 +290,7 @@ const zh = {
       data: "数据与基础设施",
       frontend: "前端与移动端",
       devops: "管理与DevOps",
+      ai: "人工智能",
     } as SkillGroupLabels,
     experiences: {
       "gestor-si-royal": {

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Server, Database, LayoutTemplate, TerminalSquare } from "lucide-react";
+import { Server, Database, LayoutTemplate, TerminalSquare, BrainCircuit } from "lucide-react";
 import { Section, SectionHeading, SkillBar, Reveal } from "@/ui/components";
 import { useLocalizedData } from "@/data/localized.data";
 import { useI18n } from "@/core/i18n";
@@ -57,6 +57,7 @@ const iconMap: Record<string, typeof Server> = {
   database: Database,
   layout: LayoutTemplate,
   terminal: TerminalSquare,
+  brain: BrainCircuit,
 };
 
 export default function SkillsPage() {
